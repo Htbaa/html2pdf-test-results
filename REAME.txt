@@ -17,4 +17,4 @@ Used commands:
     phantomjs examples/rasterize.js input.html output.pdf A4
     perl pdf_fromhtml.pl input.html outpout.pdf
     wkhtml2pdf -s A4 input.html output.pdf
-
+    xhtml2pdf input.html output.pdf
