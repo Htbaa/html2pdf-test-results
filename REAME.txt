@@ -1,0 +1,20 @@
+This repository contains the results of HTML/CSS to PDF conversion with several
+software packages. Several Twitter Bootstrap 3 examples have been used to
+create diverse PDF files which use several HTML5 and/or CSS3 features.
+
+Used versions:
+
+    dompdf              0.5.2
+    PDF::FromHTML       0.31
+    PhantomJS           1.9.2
+    wkhtml2pdf          0.9.9
+    xhtml2pdf           3.0.33
+
+
+Used commands:
+
+    php dompdf.php -f output.pdf input.html
+    phantomjs examples/rasterize.js input.html output.pdf A4
+    perl pdf_fromhtml.pl input.html outpout.pdf
+    wkhtml2pdf -s A4 input.html output.pdf
+

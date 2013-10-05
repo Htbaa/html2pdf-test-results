@@ -1,0 +1,1 @@
+requires 'PDF::FromHTML', '0.31';
